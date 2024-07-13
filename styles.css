@@ -1,0 +1,48 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar, .footer {
+    background-color: #ffdd00;
+}
+
+.navbar-brand, .footer p {
+    color: #000;
+}
+
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #ffdd00;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+.btn-primary {
+    background-color: #ffdd00;
+    border: none;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #e6c200;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
